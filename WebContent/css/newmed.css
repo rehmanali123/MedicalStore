@@ -1,0 +1,40 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: gray;
+}
+
+#container {
+	background-color: gray;
+}
+.number {
+    width:100px;
+    border-radius: 0px;
+
+}
+
+.character {
+    width: 150px;
+    border-radius: 0px;
+}
+
+input[type="text"] {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+fieldset {
+
+}
+
+#batchtable {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#batchtable tbody tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}

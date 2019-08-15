@@ -1,0 +1,65 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: gray;
+}
+
+#container {
+	margin: 50px;
+	padding: 20px;
+}
+
+label {
+	margin-top: 3px;
+	font-size: 14px;
+	color: gray;
+}
+
+.user {
+	padding: 4px 4px 4px 8px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	width: 440px;
+	font-size: 14px;
+}
+
+.name {
+	padding: 4px 4px 4px 8px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	width: 215px;
+	font-size: 14px;
+}
+
+.row {
+	text-align: right;
+	font-size: 14px;
+}
+
+.table {
+	
+}
+.overlay{
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(45, 45, 51, 0.7);
+            z-index: 10;
+        }
+        .cmodal {
+          position: absolute;
+          background-color: rgba(255, 255, 255, 0.8);
+          top: 20px;
+          left: 50%;
+          padding: 10px;
+          height: 100%;
+          border: 2px solid black;
+        }
+        .close{
+            cursor: pointer;
+        }
+        #title {
+            text-align: center;
+        }
